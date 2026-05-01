@@ -2,9 +2,6 @@ name: Deploy Portfolio to GitHub Pages
 
 on:
   push:
-    branches:
-      - main
-      - master
   workflow_dispatch:
 
 permissions:
@@ -27,6 +24,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
 
       - name: Install dependencies
         run: npm install --no-audit --no-fund
