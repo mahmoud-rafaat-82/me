@@ -1,13 +1,17 @@
-import { Phone, MapPin, ExternalLink } from "lucide-react";
+import { Phone, MapPin, ExternalLink, Linkedin, MessageCircle } from "lucide-react";
 import { FadeIn } from "./Section";
 
 interface Props {
   phones: string[];
   behance: string;
+  linkedin: string;
+  whatsapp: string;
   location: string;
 }
 
-export const Contact = ({ phones, behance, location }: Props) => (
+export const Contact = ({ phones, behance, linkedin, whatsapp, location }: Props) => {
+  const waDigits = whatsapp.replace(/\D/g, "");
+  return (
   <section id="contact" className="bg-navy text-background py-28 md:py-40">
     <div className="container-editorial text-center">
       <FadeIn>
@@ -19,7 +23,7 @@ export const Contact = ({ phones, behance, location }: Props) => (
       </FadeIn>
 
       <FadeIn delay={0.15}>
-        <div className="mt-14 grid gap-8 sm:grid-cols-3 max-w-3xl mx-auto text-left">
+        <div className="mt-14 grid gap-8 sm:grid-cols-2 lg:grid-cols-4 max-w-5xl mx-auto text-left">
           <div>
             <p className="eyebrow">Location</p>
             <p className="mt-3 flex items-start gap-2 text-background/85">
@@ -29,14 +33,29 @@ export const Contact = ({ phones, behance, location }: Props) => (
           <div>
             <p className="eyebrow">Phone</p>
             <ul className="mt-3 space-y-1.5">
-              {phones.map((p) => (
-                <li key={p}>
-                  <a href={`tel:${p.replace(/\s/g, "")}`} className="inline-flex items-center gap-2 text-background/85 hover:text-accent transition-colors">
-                    <Phone className="h-4 w-4 text-accent" /> {p}
-                  </a>
-                </li>
-              ))}
+              {phones.map((p) => {
+                const isWa = p.replace(/\D/g, "") === waDigits;
+                return (
+                  <li key={p}>
+                    <a
+                      href={isWa ? `https://wa.me/${waDigits}` : `tel:${p.replace(/\s/g, "")}`}
+                      target={isWa ? "_blank" : undefined}
+                      rel={isWa ? "noreferrer" : undefined}
+                      className="inline-flex items-center gap-2 text-background/85 hover:text-accent transition-colors"
+                    >
+                      {isWa ? <MessageCircle className="h-4 w-4 text-accent" /> : <Phone className="h-4 w-4 text-accent" />}
+                      {p}
+                    </a>
+                  </li>
+                );
+              })}
             </ul>
+          </div>
+          <div>
+            <p className="eyebrow">LinkedIn</p>
+            <a href={linkedin} target="_blank" rel="noreferrer" className="mt-3 inline-flex items-center gap-2 text-background/85 hover:text-accent transition-colors">
+              <Linkedin className="h-4 w-4 text-accent" /> Connect
+            </a>
           </div>
           <div>
             <p className="eyebrow">Portfolio</p>
@@ -48,4 +67,5 @@ export const Contact = ({ phones, behance, location }: Props) => (
       </FadeIn>
     </div>
   </section>
-);
+  );
+};
