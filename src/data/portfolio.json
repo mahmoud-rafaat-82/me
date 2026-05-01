@@ -58,25 +58,228 @@
     }
   ],
   "experience": [
-    {
-      "id": 1,
-      "role": "Graphic Designer & Digital Marketer",
-      "company": "Freelance / Multi-client",
-      "duration": "15+ Years",
-      "type": "freelance",
-      "responsibilities": [
-        "Designing daily and static posts, stories, and interactive content such as Reels and GIFs",
-        "Creating cover images and profile pictures optimized for each platform's dimensions",
-        "Developing designs for paid advertising campaigns in various formats",
-        "Accurately applying brand elements (colors, fonts, logos) in every design",
-        "Ensuring consistency in designs with the brand's tone and visual style",
-        "Collaborating closely with content creators and social media managers",
-        "Transforming marketing ideas into visually appealing designs",
-        "Suggesting innovative design ideas aligned with current social media trends",
-        "Researching competitor designs and staying updated with the latest trends"
-      ]
-    }
-  ],
+  {
+    "id": 1,
+    "role": "Graphic Designer & Digital Marketer",
+    "company": "Nahdet Misr",
+    "location": "Cairo, Egypt",
+    "industry": "Publishing",
+    "type": "client",
+    "responsibilities": [
+      "Designing visual content for one of Egypt's leading publishing groups",
+      "Creating brand-consistent designs across print and digital formats",
+      "Developing social media creatives aligned with publishing campaigns"
+    ]
+  },
+  {
+    "id": 2,
+    "role": "Graphic Designer & Digital Marketer",
+    "company": "TeleMisr",
+    "location": "Cairo, Egypt",
+    "industry": "Media",
+    "type": "client",
+    "responsibilities": [
+      "Designing digital content and creatives for a media brand",
+      "Producing social media posts, stories, and campaign visuals",
+      "Ensuring brand identity consistency across all media formats"
+    ]
+  },
+  {
+    "id": 3,
+    "role": "Graphic Designer & Digital Marketer",
+    "company": "Samsung",
+    "location": "Cairo, Egypt",
+    "industry": "Technology",
+    "type": "client",
+    "responsibilities": [
+      "Creating technology-focused promotional and advertising designs",
+      "Developing paid advertising creatives in multiple formats",
+      "Applying Samsung brand guidelines with full visual consistency"
+    ]
+  },
+  {
+    "id": 4,
+    "role": "Graphic Designer & Digital Marketer",
+    "company": "Schizer Travel",
+    "location": "Cairo, Egypt",
+    "industry": "Travel",
+    "type": "client",
+    "responsibilities": [
+      "Designing travel campaign visuals and promotional content",
+      "Creating social media posts and stories for travel offerings",
+      "Producing cover images and platform-optimized marketing assets"
+    ]
+  },
+  {
+    "id": 5,
+    "role": "Graphic Designer & Digital Marketer",
+    "company": "Smile Care Dental Clinic",
+    "location": "Cairo, Egypt",
+    "industry": "Healthcare",
+    "type": "client",
+    "responsibilities": [
+      "Designing healthcare-focused social media content",
+      "Creating patient-facing promotional and awareness visuals",
+      "Developing brand identity assets for a dental clinic"
+    ]
+  },
+  {
+    "id": 6,
+    "role": "Graphic Designer & Digital Marketer",
+    "company": "Darts Tours",
+    "location": "Cairo, Egypt",
+    "industry": "Travel",
+    "type": "client",
+    "responsibilities": [
+      "Designing tour and travel promotional visuals",
+      "Creating social media content for travel packages and offers",
+      "Producing advertising creatives for various platforms"
+    ]
+  },
+  {
+    "id": 7,
+    "role": "Graphic Designer & Digital Marketer",
+    "company": "Nile Lotus Cruise",
+    "location": "Cairo, Egypt",
+    "industry": "Tourism",
+    "type": "client",
+    "responsibilities": [
+      "Designing luxury cruise promotional and marketing content",
+      "Creating visually appealing social media posts and stories",
+      "Developing advertising creatives for tourism campaigns"
+    ]
+  },
+  {
+    "id": 8,
+    "role": "Graphic Designer & Digital Marketer",
+    "company": "Tako Sushi & Grill",
+    "location": "Cairo, Egypt",
+    "industry": "Restaurant",
+    "type": "client",
+    "responsibilities": [
+      "Designing food and restaurant social media content",
+      "Creating menu visuals, promotional posts, and campaign assets",
+      "Maintaining consistent brand identity across digital platforms"
+    ]
+  },
+  {
+    "id": 9,
+    "role": "Graphic Designer & Digital Marketer",
+    "company": "El-Sewesy Seafood",
+    "location": "Cairo, Egypt",
+    "industry": "Restaurant",
+    "type": "client",
+    "responsibilities": [
+      "Designing social media content for a seafood restaurant brand",
+      "Creating promotional visuals and campaign advertising designs",
+      "Developing brand-consistent digital marketing assets"
+    ]
+  },
+  {
+    "id": 10,
+    "role": "Graphic Designer & Digital Marketer",
+    "company": "Scatula",
+    "location": "Cairo, Egypt",
+    "industry": "Retail",
+    "type": "client",
+    "responsibilities": [
+      "Designing retail-focused promotional and product visuals",
+      "Creating social media content and advertising campaign creatives",
+      "Applying brand elements consistently across all design outputs"
+    ]
+  },
+  {
+    "id": 11,
+    "role": "Graphic Designer & Digital Marketer",
+    "company": "Venecia Golden Hall",
+    "location": "Benghazi, Libya",
+    "industry": "Events",
+    "type": "client",
+    "responsibilities": [
+      "Designing event promotional materials and digital content",
+      "Creating visually striking social media posts and event campaigns",
+      "Developing brand identity assets for an events venue"
+    ]
+  },
+  {
+    "id": 12,
+    "role": "Graphic Designer & Digital Marketer",
+    "company": "MultiBrands Store",
+    "location": "Benghazi, Libya",
+    "industry": "Retail",
+    "type": "client",
+    "responsibilities": [
+      "Designing multi-brand retail promotional and advertising content",
+      "Creating social media visuals for product launches and campaigns",
+      "Ensuring visual consistency across a multi-brand retail identity"
+    ]
+  },
+  {
+    "id": 13,
+    "role": "Graphic Designer & Digital Marketer",
+    "company": "White Whale & North Africa Shipping Companies",
+    "location": "Benghazi, Libya",
+    "industry": "Shipping",
+    "type": "client",
+    "responsibilities": [
+      "Designing corporate visual content for a shipping company",
+      "Creating professional brand identity and marketing materials",
+      "Developing digital advertising creatives for B2B campaigns"
+    ]
+  },
+  {
+    "id": 14,
+    "role": "Graphic Designer & Digital Marketer",
+    "company": "Siran Pharmaceuticals",
+    "location": "Libya",
+    "industry": "Pharmaceuticals",
+    "type": "client",
+    "responsibilities": [
+      "Designing pharmaceutical brand and marketing visual content",
+      "Creating compliant and professional healthcare advertising designs",
+      "Developing social media and digital campaign creatives"
+    ]
+  },
+  {
+    "id": 15,
+    "role": "Graphic Designer & Digital Marketer",
+    "company": "My Home Furniture Stores",
+    "location": "Libya",
+    "industry": "Furniture",
+    "type": "client",
+    "responsibilities": [
+      "Designing furniture retail promotional and product visuals",
+      "Creating lifestyle-oriented social media content and campaign ads",
+      "Maintaining brand consistency across all digital touchpoints"
+    ]
+  },
+  {
+    "id": 16,
+    "role": "Graphic Designer & Digital Marketer",
+    "company": "Tobacts Restaurant & Café",
+    "location": "Libya",
+    "industry": "Restaurant",
+    "type": "client",
+    "responsibilities": [
+      "Designing restaurant and café social media content",
+      "Creating food photography-supporting visual assets and promotions",
+      "Developing brand identity materials for a café brand"
+    ]
+  },
+  {
+    "id": 17,
+    "role": "Graphic Designer & Digital Marketer",
+    "company": "Golden Palm Resort",
+    "location": "Libya",
+    "industry": "Hospitality",
+    "type": "client",
+    "responsibilities": [
+      "Designing luxury hospitality promotional and marketing visuals",
+      "Creating resort campaign content for social media and advertising",
+      "Developing elegant brand-consistent visual assets for a resort"
+    ]
+  }
+],
   "clients": {
     "egypt": [
       { "name": "Nahdet Misr", "industry": "Publishing" },
