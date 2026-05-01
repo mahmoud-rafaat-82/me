@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { ChevronDown } from "lucide-react";
+import portrait from "@/assets/mahmoud.jpg";
 
 interface Props {
   name: string;
@@ -61,10 +62,19 @@ export const Hero = ({ name, title, tagline, initials }: Props) => {
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.3 }}
-          className="hidden md:flex h-56 w-56 lg:h-64 lg:w-64 items-center justify-center rounded-full border border-accent/40 bg-card shadow-sm"
+          className="relative mx-auto md:mx-0"
         >
-          <div className="flex h-44 w-44 lg:h-52 lg:w-52 items-center justify-center rounded-full bg-primary text-background">
-            <span className="font-serif text-6xl lg:text-7xl text-accent">{initials}</span>
+          <div className="absolute -inset-3 rounded-full border border-accent/40" aria-hidden />
+          <div className="relative h-64 w-64 lg:h-80 lg:w-80 overflow-hidden rounded-full bg-card shadow-xl ring-1 ring-accent/30">
+            <img
+              src={portrait}
+              alt={`Portrait of ${name}`}
+              className="h-full w-full object-cover object-top"
+              loading="eager"
+            />
+          </div>
+          <div className="absolute -bottom-3 left-1/2 -translate-x-1/2 rounded-full bg-primary px-4 py-1 font-serif text-xs tracking-[0.2em] text-accent">
+            {initials}
           </div>
         </motion.div>
       </div>
