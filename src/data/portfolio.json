@@ -1,0 +1,129 @@
+{
+  "personal": {
+    "name": "Mahmoud Raafat",
+    "title": "Graphic Designer & Digital Marketer",
+    "tagline": "Turning ideas into visual impact — for 15+ years.",
+    "location": "Ain Shams, Cairo, Egypt",
+    "phone": ["+20 1011185102", "+20 1212357311"],
+    "behance": "https://www.behance.net/mahmoudrafaat1",
+    "avatar_initials": "MR",
+    "about": "Creative and results-driven Graphic Designer and Digital Marketer with over 15 years of professional experience delivering high-impact visual solutions across diverse and competitive industries. My work sits at the intersection of strategic communication and visual craft — every design I produce is built to capture attention, reinforce brand identity, and drive measurable engagement.",
+    "available_for_work": true
+  },
+  "skills": [
+    { "name": "Adobe Photoshop", "level": 5, "category": "design" },
+    { "name": "Adobe Illustrator", "level": 5, "category": "design" },
+    { "name": "Adobe InDesign", "level": 4, "category": "design" },
+    { "name": "Adobe Premiere Pro", "level": 5, "category": "video" },
+    { "name": "Adobe After Effects", "level": 5, "category": "video" }
+  ],
+  "expertise": [
+    {
+      "id": 1,
+      "title": "Visual Content Creation",
+      "description": "Designing daily and static posts, stories, and interactive content such as Reels and GIFs.",
+      "icon": "layers"
+    },
+    {
+      "id": 2,
+      "title": "Brand Identity",
+      "description": "Accurately applying brand elements — colors, fonts, logos — with full consistency across every touchpoint.",
+      "icon": "award"
+    },
+    {
+      "id": 3,
+      "title": "Paid Advertising Design",
+      "description": "Developing creatives for paid advertising campaigns across multiple formats and platforms.",
+      "icon": "trending-up"
+    },
+    {
+      "id": 4,
+      "title": "Video & Motion Graphics",
+      "description": "Video editing and motion graphics using Premiere Pro and After Effects.",
+      "icon": "film"
+    },
+    {
+      "id": 5,
+      "title": "Social Media Management",
+      "description": "End-to-end social media visual strategy, including cover images and platform-optimized profile assets.",
+      "icon": "share-2"
+    },
+    {
+      "id": 6,
+      "title": "Creative Idea Generation",
+      "description": "Suggesting innovative design ideas that align with current social media trends and competitor research.",
+      "icon": "zap"
+    }
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "role": "Graphic Designer & Digital Marketer",
+      "company": "Freelance / Multi-client",
+      "duration": "15+ Years",
+      "type": "freelance",
+      "responsibilities": [
+        "Designing daily and static posts, stories, and interactive content such as Reels and GIFs",
+        "Creating cover images and profile pictures optimized for each platform's dimensions",
+        "Developing designs for paid advertising campaigns in various formats",
+        "Accurately applying brand elements (colors, fonts, logos) in every design",
+        "Ensuring consistency in designs with the brand's tone and visual style",
+        "Collaborating closely with content creators and social media managers",
+        "Transforming marketing ideas into visually appealing designs",
+        "Suggesting innovative design ideas aligned with current social media trends",
+        "Researching competitor designs and staying updated with the latest trends"
+      ]
+    }
+  ],
+  "clients": {
+    "egypt": [
+      { "name": "Nahdet Misr", "industry": "Publishing" },
+      { "name": "TeleMisr", "industry": "Media" },
+      { "name": "Samsung", "industry": "Technology" },
+      { "name": "Schizer Travel", "industry": "Travel" },
+      { "name": "Smile Care Dental Clinic", "industry": "Healthcare" },
+      { "name": "Darts Tours", "industry": "Travel" },
+      { "name": "Nile Lotus Cruise", "industry": "Tourism" },
+      { "name": "Tako Sushi & Grill", "industry": "Restaurant" },
+      { "name": "El-Sewesy Seafood", "industry": "Restaurant" },
+      { "name": "Scatula", "industry": "Retail" }
+    ],
+    "libya": [
+      { "name": "Venecia Golden Hall", "industry": "Events", "city": "Benghazi" },
+      { "name": "MultiBrands Store", "industry": "Retail", "city": "Benghazi" },
+      { "name": "White Whale & North Africa Shipping Companies", "industry": "Shipping", "city": "Benghazi" },
+      { "name": "Siran Pharmaceuticals", "industry": "Healthcare", "city": "Libya" },
+      { "name": "My Home Furniture Stores", "industry": "Furniture", "city": "Libya" },
+      { "name": "Tobacts Restaurant & Café", "industry": "Restaurant", "city": "Libya" },
+      { "name": "Golden Palm Resort", "industry": "Hospitality", "city": "Libya" }
+    ]
+  },
+  "education": [
+    {
+      "degree": "Bachelor's Degree",
+      "field": "Information Systems",
+      "institution": "City Academy",
+      "location": "Egypt",
+      "period": "2000 – 2005"
+    }
+  ],
+  "industries": [
+    "Publishing", "Media", "Technology", "Travel", "Healthcare",
+    "Tourism", "Restaurant", "Retail", "Shipping", "Pharmaceuticals",
+    "Furniture", "Hospitality", "Events"
+  ],
+  "stats": [
+    { "label": "Years of Experience", "value": "15+" },
+    { "label": "Egyptian Clients", "value": "10+" },
+    { "label": "Libyan Clients", "value": "7+" },
+    { "label": "Industries Served", "value": "13+" }
+  ],
+  "meta": {
+    "theme_color_primary": "#1B3A5C",
+    "theme_color_accent": "#C8A96E",
+    "font_heading": "Playfair Display",
+    "font_body": "Inter",
+    "portfolio_version": "1.0.0",
+    "last_updated": "2025-05-01"
+  }
+}
