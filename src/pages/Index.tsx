@@ -35,6 +35,8 @@ const Index = () => {
         location={personal.location}
         phones={personal.phone}
         behance={personal.behance}
+        linkedin={personal.linkedin}
+        whatsapp={personal.whatsapp}
       />
       <Expertise items={expertise} />
       <Skills skills={skills} />
@@ -42,7 +44,7 @@ const Index = () => {
       <Clients egypt={clients.egypt} libya={clients.libya} />
       <Industries industries={industries} />
       <Education items={education} />
-      <Contact phones={personal.phone} behance={personal.behance} location={personal.location} />
+      <Contact phones={personal.phone} behance={personal.behance} linkedin={personal.linkedin} whatsapp={personal.whatsapp} location={personal.location} />
       <Footer name={personal.name} title={personal.title} />
     </main>
   );
