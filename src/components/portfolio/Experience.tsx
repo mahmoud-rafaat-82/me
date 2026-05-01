@@ -7,6 +7,8 @@ interface Exp {
   duration: string;
   type: string;
   responsibilities: string[];
+  location?: string;
+  industry?: string;
 }
 
 export const Experience = ({ items }: { items: Exp[] }) => (
@@ -27,7 +29,9 @@ export const Experience = ({ items }: { items: Exp[] }) => (
               <h3 className="font-serif text-2xl text-primary">{e.role}</h3>
               <span className="text-xs uppercase tracking-[0.2em] text-accent">{e.duration}</span>
             </div>
-            <p className="mt-1 text-sm text-foreground/60 italic">{e.company} · {e.type}</p>
+            <p className="mt-1 text-sm text-foreground/60 italic">
+              {e.company} · {([e.location, e.industry].filter(Boolean).join(' · ') || e.type)}
+            </p>
 
             <ul className="mt-6 space-y-2.5">
               {e.responsibilities.map((r) => (
